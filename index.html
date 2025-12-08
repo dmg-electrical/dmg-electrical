@@ -3,92 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DMG Electrical & Solar Services</title>
+    <title>Request for Quotation - DMG Electrical</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
             background: #f5f5f5;
-            color: #333;
-        }
-        .header {
-            text-align: center;
             padding: 20px;
-            background: white;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .header img {
-            width: 120px;
-            margin-bottom: 10px;
         }
         .container {
-            max-width: 900px;
-            margin: 20px auto;
+            max-width: 600px;
+            margin: auto;
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
         h2 {
-            border-left: 5px solid #0056b3;
-            padding-left: 10px;
-        }
-        .footer {
             text-align: center;
-            margin-top: 40px;
+        }
+        input, textarea {
+            width: 100%;
             padding: 10px;
-            font-size: 14px;
-            color: #777;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #003f7f;
         }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <img src="logo.jpg" alt="Company Logo">
-        <h1>DMG Electrical & Solar Services</h1>
-        <p>Your Trusted Solar and Electrical Partner</p>
-    </div>
+<div class="container">
+    <h2>Request for Quotation</h2>
 
-    <div class="container">
-        <h2>Company Overview</h2>
-        <p>
-            DMG Electrical & Solar Services specializes in electrical installation, solar setup, troubleshooting, 
-            maintenance, and residential/commercial electrification. We provide safe, reliable, and affordable 
-            electrical solutions tailored to client needs.
-        </p>
+    <form action="mailto:gelardezd@gmail.com" method="POST" enctype="text/plain">
 
-        <h2>Mission</h2>
-        <p>
-            To deliver high-quality and safe electrical and solar services while maintaining professionalism, 
-            integrity, and customer satisfaction.
-        </p>
+        <label>Full Name</label>
+        <input type="text" name="Full Name" required>
 
-        <h2>Vision</h2>
-        <p>
-            To become a leading and trusted electrical and solar service provider in the Philippines, known for 
-            excellence, safety, and innovation.
-        </p>
+        <label>Contact Number</label>
+        <input type="text" name="Contact Number" required>
 
-        <h2>Founder</h2>
-        <p>
-            <b>DARREN M. GELARDEZ, RME</b><br>
-            Registered Master Electrician<br>
-            Founder & Lead Electrical Specialist
-        </p>
+        <label>Email Address</label>
+        <input type="email" name="Email" required>
 
-        <h2>Contact Information</h2>
-        <p>
-            Address: 0579 St. Vincent Corazon Compound, Purok 2 Mamatid, Cabuyao City, Laguna<br>
-            Mobile: 09549973962<br>
-            Email: gelardezd@gmail.com
-        </p>
-    </div>
+        <label>Project Location</label>
+        <input type="text" name="Project Location" required>
 
-    <div class="footer">
-        © 2025 DMG Electrical & Solar Services
-    </div>
-
-</body>
-</html>
+        <label>Description of Work / Request</label>
+        <textarea name="Message" rows="6" required></te

@@ -1,0 +1,1 @@
+console.log('DMG Solar Game loaded');
